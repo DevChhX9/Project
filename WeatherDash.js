@@ -21,10 +21,14 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
         data.list[i].weather[0].icon
         +".png";
     }
+    if(Number(data.list[0].main.temp_min - 273.15).toFixed(1) < 0){
+    document.getElementById("advice").innerHTML = "hello";
+    }
     console.log(data)
 
 
 })
+
 .catch(err => alert("Something Went Wrong: Try Checking Your Internet Coneciton"))
 }
 function DefaultScreen(){
