@@ -35,13 +35,13 @@ p{
 
 button{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 60px;
+    font-size: 120px;
     text-align: center;
     font-weight: bold;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-right: 50px;
-    width: 150px;
+    width: 300px;
     background: rgb(190, 228, 228);
     background-size: 20px;
     border-radius: 20px;
