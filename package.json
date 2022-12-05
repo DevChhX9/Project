@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevChhX9/Project.git"
+    "url": "git+https://github.com/DevChhX9/Static_Startup.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DevChhX9/Project/issues"
+    "url": "https://github.com/DevChhX9/Static_Startup/issues"
   },
-  "homepage": "https://github.com/DevChhX9/Project#readme"
+  "homepage": "https://github.com/DevChhX9/Static_Startup#readme"
 }
