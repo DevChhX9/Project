@@ -10,10 +10,10 @@
 </head>
 <body onload="DefaultScreen()">
    <div id="newdiv">
-        <h1 id="Para1">5 Day Weather Forecast</h1>
-        <p id="inputContainer">City <br><input type="text" id="cityInput"></p>
-        <button id="search" onclick="GetInfo()">Search</button>        
-        <h2 id="cityName">Mississauga</h2>
+        <h1 id="Para1">5 Days Weather Forecast</h1>
+        <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+        <button type="button" onclick="GetInfo()">Search</button>        
+        <h2 id="cityName">---Mississauga---</h2>
     </div>
     <div id = "weatherContainer">
         <div id="iconsContainer">    
@@ -22,6 +22,7 @@
                 <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
                 <p class="minValues" id="day1Min">Loading...</p>
                 <p class="maxValues" id="day1Max">Loading...</p>
+            
             </div>
             <div class = "icons">
                 <p class="weather" id="day2"></p>
@@ -47,13 +48,9 @@
                 <p class="minValues" id="day5Min">Loading...</p>
                 <p class="maxValues" id="day5Max">Loading...</p>
             </div>
-            <p id="advice"></p>
-
         </div>
-        
     </div>
-    
-    <div id="right"><a href="about.html"><button id="about">About</button></a></div>
+
 
         <script src="WeatherDash.js"></script>
 
