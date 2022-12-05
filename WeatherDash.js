@@ -1,3 +1,12 @@
+var attempt_code;
+var current_attempt_id;
+var start = new Date();
+var btn_initial_top;
+var url = "http://localhost:3000/post";   // "http://localhost:3000/post";
+    //when you are in Task2 of the lab (server side coding), you
+	//should comeback here and change the url to localhost.
+
+
 function GetInfo() {
 
     var newName = document.getElementById("cityInput");
